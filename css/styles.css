@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  color: #222831;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  margin: 50px auto 0 auto;
+  font-size: 2.5rem;
+  color: #222831;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #00adb5;
+}
+p{
+  color: #393e46;
+  line-height: 2;
+}
+hr{
+  width: 10%;
+  border-top-style: dotted;
+  background-color: inherit;
+  border-bottom-style: hidden;
+  border-top-width: 10px;
+  border-top-color: #00adb5
+}
+a{
+  text-decoration: none;
+  color: #393e46;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 5px;
+}
+a:hover{
+  color: #ffffff;
+}
+.top{
+  background-color: #00adb5;
+  padding-top: 100px;
+}
+.middle{
+  background-color: #f6f6f6;
+  padding: 50px 0 50px 0;
+
+
+}
+.bottom{
+  background-color: #00adb5;
+  padding: 50px 0 25px 0;
+}
+.top-cloud{
+  position: absolute;
+  right:200px;
+  top:100px;
+
+}
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+  bottom:200px;
+}
+.advertise{
+  font-size: 5px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 75px auto;
+  text-align: left;
+}
+.img-skills{
+  width: 25%;
+  float: left;
+  margin-right: 25px;
+}
+.profile{
+  width: 50%;
+  margin: auto auto 70px auto;
+  line-height: 2;
+}
+.profilepicture{
+  width: 25%;
+  margin-bottom: 0;
+}
+.contact-me{
+  width: 50%;
+  margin: auto;
+}
+.btn {
+  background: #008fb3;
+  background-image: -webkit-linear-gradient(top, #008fb3, #2b9cb8);
+  background-image: -moz-linear-gradient(top, #008fb3, #2b9cb8);
+  background-image: -ms-linear-gradient(top, #008fb3, #2b9cb8);
+  background-image: -o-linear-gradient(top, #008fb3, #2b9cb8);
+  background-image: linear-gradient(to bottom, #008fb3, #2b9cb8);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #14d1db;
+  background-image: -webkit-linear-gradient(top, #14d1db, #00adb5);
+  background-image: -moz-linear-gradient(top, #14d1db, #00adb5);
+  background-image: -ms-linear-gradient(top, #14d1db, #00adb5);
+  background-image: -o-linear-gradient(top, #14d1db, #00adb5);
+  background-image: linear-gradient(to bottom, #14d1db, #00adb5);
+  text-decoration: none;
+}
